@@ -63,8 +63,8 @@ header h1 span {
 header nav {
 	padding: 20px 0;
 	width: 100%;
-
 }
+
 header nav ul {
 	margin: 0;
 	padding: 0;
@@ -103,6 +103,7 @@ header nav ul li a{
 	color: #77a466;
 	font-size: 1.125em;
 }
+
 .main-title p {
 	padding: 0;
 	font-size: 1em;
@@ -120,6 +121,7 @@ header nav ul li a{
 	list-style: none;
 	padding: 0;
 }
+
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
@@ -146,6 +148,7 @@ footer {
 	flex-flow: row wrap;
 	width: 100%;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
@@ -153,9 +156,7 @@ footer span {
 	font-size: 0.875em;
 }
 
-/*Media styles - Tablet*/
-
-@media all and (min-width:768px) {
+@media only screen and (min-width: 768px) {
 	.bottom-section{
         justify-content: space-between;
         align-items: flex-start;
@@ -175,10 +176,8 @@ footer span {
         padding: 0 20px;
     }
 }
- 
-/*Media styles - Desktop*/
 
-@media all and (min-width:1200px) {
+@media only screen and (min-width: 1200px) {
 	header {
         justify-content: space-between;
     }
